@@ -3,13 +3,13 @@ int main()
 {
 	float Basic, HRA, DA, Gross_Salary;
   	
-	printf("\n Please Enter the Basic Salary of an Employee  :  ");
+	printf("\nPlease Enter the Basic Salary of an Employee  : ");
   	scanf("%f", &Basic);
   
   
   	
-  		HRA = (Basic * 10) / 100;// or HRA = Basic * (10 / 100)
-		DA = (Basic * 25) / 100; 
+  		HRA = (Basic * 10) / 100;// or HRA = Basic * (0.1)
+		DA = (Basic * 25) / 100; // or DA = Basic * (0.25)
 		
   	
   	
